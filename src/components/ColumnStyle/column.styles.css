@@ -1,0 +1,23 @@
+.column {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    column-width: auto;
+  }
+
+  .col1 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    
+    align-items: center;
+  }
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

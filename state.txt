@@ -1,0 +1,31 @@
+ this.state ={
+          task : [
+            {
+               title:"To Do",
+               list:[
+                     {title:"Task 1"},
+                     {desc:"sign up page"},
+                     {count: 0},
+                     {showButton: true}
+                    ]
+             },
+            {
+               title:"Prccess",
+               list:[
+                     {title:"Task 2"},
+                     {desc:"sign up page"},
+                     {count: 0},
+                     {showButton: true}
+                    ]
+             },
+            {
+               title:"Done",
+               list:[
+                     {title:"Task 3"},
+                     {desc:"sign up page"},
+                     {count: 0},
+                     {showButton: true}
+                    ]
+             }
+         ]
+        };

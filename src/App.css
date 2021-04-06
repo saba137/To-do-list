@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.col1 {
+    
+  width: 25%;
+  padding: 10px;
+  min-height: 600px;
+  align-items: center;
+  background-color: white;
+}
+.row1 {
+  content: "";
+  display: flex;
+  clear: both;
+}
